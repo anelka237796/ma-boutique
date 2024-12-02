@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10;
+    padding: 0;
+}
+heade{
+    background-color: #5fd9e6;
+    color: #aff63ddc;
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav li{
+    margin-right: 20px;
+
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.produits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.produit{
+    margin: 70PX;
+    width: 300PX;
+}
+.produit img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
+}button:hover{
+    background-color: #2ff408;
+}
